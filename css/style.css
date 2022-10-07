@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"),
+	url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+	url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+	url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+body {
+	font-family:'Lato',sans-serif;
+	font-style: normal;
+	font-weight: 400; 
+	width: 810px;
+	margin:0 auto	;
+	color: #1E212C;
+}
+
+.maintitle{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.img {
+	display: block;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.firsttext {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 26px;
+}
+
+.quote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 0px 48px 48px;
+}
+
+.quote-list-text {
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 24px;
+}
+
+ul {
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-left: 35px;
+	margin-bottom: 4px;
+}
+
+.quote-list {
+	margin-bottom: 30px;
+}
+
+.list-text {
+	font-size: 16px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 60px;
+}
+
+.firstblock {
+	background-color: rgb(221, 13, 13);
+	margin: 0px 10px 200px 50px;
+	font-family: "Lato";
+	font-weight: 400;
+	padding: 10px 50px 10px 50px;
+	text-shadow: 2px 2px 2px rgb(255, 255, 255);
+	border: 2px solid #000;
+	letter-spacing: 10px;
+	word-spacing: 3px;
+	height: 120px;
+	overflow: scroll;
+	border-radius: 50px;
+	box-shadow: inset 15px 20px 50px rgb(25, 15, 31);
+}
+
+.secondblock p{
+	display: inline-block;
+	min-height: 100px;
+	max-width: 300px;
+	margin:0px 30px 40px 40px;
+	border-radius: 5px;
+	background-color: rgb(230, 198, 19);
+}
+
+.one{
+	background-color: violet;
+	font-family: "Lato";
+	opacity: 0.5;
+	font-weight: 200;
+	box-shadow: 20px 20px 20px rgb(0, 0, 0);
+	border: 5px dotted #ff00d4
+}
+
+.two {
+	background-color:aquamarine;
+	font-family: "Lato";
+	font-weight: 700;
+	box-shadow: 0px 10px 20px rgb(68, 68, 68);
+	border: 15px double #1E212C;
+}
+
+.three{
+		color: rgb(5, 1, 1);
+		box-shadow:inset 4px 5px #000;
+		
+}
+
+.four {
+	background-color:rgb(124, 9, 255);
+	font-family: "Lato";
+	font-weight: 300;
+	box-shadow: 0px 10px 20px rgb(250, 0, 0);
+	border: 15px dashed #0037ff;
+}
+
+.images img {
+	display: inline-block;
+	max-width: 350px;
+	max-height: 300px;
+	margin: 0px 20px 10px 10px;
+	box-shadow: 20px 20px 20px #000;
+	padding: 50px;
+}
+
+.button{
+	/* display: inline-block; */
+	background-color: #02f15e;
+	padding: 50px;
+	color: rgb(255, 0, 0);
+	border-radius: 30px;
+	box-shadow: 0 5px 0 rgb(25, 0, 255);
+	transition: all 0.2s ease 0s;
+	margin-bottom: 60px;
+}
+
+.button:hover{
+	margin-top: 3px;
+	box-shadow: 0 2px 0 #000;
